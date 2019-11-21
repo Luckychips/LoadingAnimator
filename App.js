@@ -9,6 +9,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import LoadingIndicator from './app/components/SquareTypeLoadingIndicator';
+import SpringProgressBar from './app/components/SpringProgressBar';
 
 const Centered = styled.View`
   flex: 1;
@@ -19,7 +20,8 @@ const Centered = styled.View`
 const App: () => React$Node = () => {
   return (
     <Centered>
-      <LoadingIndicator />
+      {/*<LoadingIndicator />*/}
+      <SpringProgressBar />
     </Centered>
   );
 };
